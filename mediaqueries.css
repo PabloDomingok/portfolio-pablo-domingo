@@ -79,13 +79,22 @@
   .btn-container {
     flex-wrap: wrap;
   }
-  .contact-info-container {
-    margin: 0;
+  .contact-info-container-upper-container {
+    width: 80%; /* ajusta el ancho según sea necesario */
+    margin-left: 20px;
+    margin-right: 20px;
+    
   }
   .contact-info-container p,
   .nav-links li a {
-    font-size: 1rem;
+    font-size: 0.80rem;
   }
+  .contact-info-container{
+    width: 90%;
+    padding: 2px;
+    margin: 5px;
+  }
+
   .experience-sub-title {
     font-size: 1.25rem;
   }
