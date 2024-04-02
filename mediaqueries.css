@@ -87,7 +87,7 @@
   }
   .contact-info-container p,
   .nav-links li a {
-    font-size: 0.77rem;
+    font-size: 0.70rem;
   }
   .contact-info-container{
     width: 90%;
@@ -119,5 +119,8 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .arrow_up{
+    display: none;    
   }
 }
