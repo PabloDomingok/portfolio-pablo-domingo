@@ -10,15 +10,18 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  
 
 }
 
 html {
   scroll-behavior: smooth;
+  background: linear-gradient(45deg, #010101, #2a3040);
+  color: #ea0f9d;
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: #ea0f9d;
 }
 
 /* TRANSITION */
@@ -48,9 +51,8 @@ nav {
 }
 
 a {
-  color: black;
+  color: #ea0f9d;
   text-decoration: none;
-  text-decoration-color: white;
 }
 
 a:hover {
@@ -112,7 +114,7 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: black;
+  color: #ea0f9d;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
 }
