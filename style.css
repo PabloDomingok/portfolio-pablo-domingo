@@ -15,13 +15,17 @@ body {
 }
 
 html {
-  scroll-behavior: smooth;
-  background: linear-gradient(45deg, #010101, #2a3040);
-  color: #ea0f9d;
+  scroll-behavior: smooth; 
+  background: radial-gradient(circle farthest-side, rgba(1,28,81,.15), rgba(255,255,255,0)), radial-gradient(circle farthest-side, rgba(255,0,182,.15), rgba(255,255,255,0)), linear-gradient(45deg, #010101, #1a1f2e);
+  color: #417ff5;
 }
 
+
 p {
-  color: #ea0f9d;
+  color: transparent;
+background-image: linear-gradient(to right, #417ff5, #ab56f4);
+background-clip: text;
+
 }
 
 /* TRANSITION */
@@ -51,7 +55,7 @@ nav {
 }
 
 a {
-  color: #ea0f9d;
+  color: #ab56f4;
   text-decoration: none;
 }
 
@@ -64,6 +68,10 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  font-weight: bold;
+  color: transparent;
+  background-image: linear-gradient(to right, #417ff5, #ab56f4);
+  background-clip: text;
 }
 
 .logo:hover {
@@ -317,7 +325,9 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: rgba(255,255,255,.05);
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  backdrop-filter: blur(10px);
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -383,7 +393,9 @@ article .icon {
 
 .color-container {
   border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  background: rgba(255,255,255,.05);
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  backdrop-filter: blur(10px);
 }
 
 .project-img {
