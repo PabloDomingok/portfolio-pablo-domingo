@@ -118,7 +118,7 @@
     font-size: 2rem;
   }
   .text-container {
-    text-align: justify;
+    text-align:inherit;
   }
   .arrow_up{
     display: none;    
