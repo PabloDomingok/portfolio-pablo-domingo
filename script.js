@@ -44,3 +44,5 @@ function toggleArrowVisibility() {
     arrow.classList.remove('hidden'); // Remueve la clase hidden cuando la sección profile no está visible
   }
 }
+
+

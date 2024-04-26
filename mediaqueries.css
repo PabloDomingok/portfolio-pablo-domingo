@@ -150,4 +150,13 @@
   .btn.btn-color-2{
     animation: fadeIn 2s ease 0s 1 normal forwards;
   }
+  .about-details-container{
+    margin-top: 32px;
+  }
+  .contact-info-upper-container{
+    margin-top: 32px;
+  }
+  #about{
+    padding-top: 0;
+  }
 }
