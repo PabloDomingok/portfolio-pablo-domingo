@@ -61,7 +61,9 @@
 @media screen and (max-width: 600px) {
   #contact,
   footer {
+    
     margin: 40px;
+    height: 90%;
     
     
   }
@@ -80,6 +82,7 @@
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
+    width: 100%;
   }
   .contact-info-container-upper-container {
     width: 80%; /* ajusta el ancho según sea necesario */
@@ -135,5 +138,16 @@
     width: 200px;
     
   }
- 
+  .form-style-1{
+    padding: 10px 10px 10px 10px;
+  }
+  .menu-links.open{
+    z-index: 9999;
+  }
+  .btn.btn-color-1{
+    animation: fadeInRight 2s ease 0s 1 normal forwards;
+  }
+  .btn.btn-color-2{
+    animation: fadeIn 2s ease 0s 1 normal forwards;
+  }
 }

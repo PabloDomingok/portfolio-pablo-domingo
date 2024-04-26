@@ -27,7 +27,40 @@ background-image: linear-gradient(to right, #417ff5, #ab56f4);
 background-clip: text;
 
 }
+/* ANIMATIONS */
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: scale(0.6);
+	}
 
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+@keyframes fadeInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
 /* TRANSITION */
 
 a,
@@ -72,10 +105,32 @@ a:hover {
   color: transparent;
   background-image: linear-gradient(to right, #417ff5, #ab56f4);
   background-clip: text;
+  animation: fadeIn 2s ease 0s 1 normal forwards;
 }
 
 .logo:hover {
   cursor: default;
+}
+
+
+.profile-picture{
+  border-radius: 50%;
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+.title{
+  animation: fadeIn 2s ease 0s 1 normal forwards;
+}
+.section__text__p1,
+.section__text__p2{
+  animation: fadeInRight 2s ease 0s 1 normal forwards;
+}
+.icon{
+  animation: myAnim 2s ease 0s 1 normal forwards;
+  transition: filter 0s;
+}
+.icon:hover{
+  filter: invert(40%) sepia(82%) saturate(722%) hue-rotate(188deg) brightness(98%) contrast(96%);
 }
 
 /* HAMBURGER MENU */
@@ -440,7 +495,8 @@ article .icon {
 
 .contact-info-upper-container {
   display: flex;
-  
+  width:80%;
+  margin: 0 auto;
   justify-content: center;
   border-radius: 2rem;
   border: #ab56f4 0.1rem solid;
