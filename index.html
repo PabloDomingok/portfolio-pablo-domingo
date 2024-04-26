@@ -410,21 +410,31 @@
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:pablodomingo19935@gmail.com">pablodomingo19935@gmail.com</a>
-          </p>
-        </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+       
+          <form>
+            <ul class="form-style-1">
+                <li><label>Full Name <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" /> <input type="text" name="field2" class="field-divided" placeholder="Last" /></li>
+                <li>
+                    <label>Email <span class="required">*</span></label>
+                    <input type="email" name="field3" class="field-long" />
+                </li>
+                <li>
+                    <label>Subject</label>
+                    <select name="field4" class="field-select">
+                    <option value="Advertise">Services</option>
+                    <option value="Partnership">Partnership</option>
+                    <option value="General Question">Advertise</option>
+                    </select>
+                </li>
+                <li>
+                    <label>Your Message <span class="required">*</span></label>
+                    <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+                </li>
+                <li>
+                    <input class="submit-button btn btn-color-2 project-btn" type="submit" value="Submit" />
+                </li>
+            </ul>
+            </form>
         </div>
        
       </div>

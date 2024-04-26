@@ -61,7 +61,9 @@
 @media screen and (max-width: 600px) {
   #contact,
   footer {
-    height: 40vh;
+    margin: 40px;
+    
+    
   }
   #profile {
     height: 83vh;
@@ -102,9 +104,10 @@
     font-size: 1.5rem;
   }
   .nav-links {
-    flex-direction: column;
+    flex-direction: row;
     gap: 0.5rem;
     text-align: center;
+    
   }
   .section__pic-container {
     width: auto;
@@ -123,4 +126,14 @@
   .arrow_up{
     display: none;    
   }
+  .submit-button{
+    width: 100%;
+  }
+  .menu-links {
+    background: #417ff5;
+    top: 0;
+    width: 200px;
+    
+  }
+ 
 }
