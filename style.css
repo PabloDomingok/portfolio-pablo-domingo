@@ -146,6 +146,7 @@ a:hover:before {
 .profile-picture{
   border-radius: 50%;
   animation: myAnim 2s ease 0s 1 normal forwards;
+  transition: box-shadow 0.3s;
 }
 
 .title{
@@ -161,6 +162,14 @@ a:hover:before {
 }
 .icon:hover{
   filter: invert(40%) sepia(82%) saturate(722%) hue-rotate(188deg) brightness(98%) contrast(96%);
+}
+.icon1{
+  height: 2rem;
+}
+.profile-picture:hover{
+  -webkit-box-shadow:0px 0px 27px 4px rgba(170,86,244,0.43);
+-moz-box-shadow: 0px 0px 27px 4px rgba(170,86,244,0.43);
+box-shadow: 0px 0px 27px 4px rgba(170,86,244,0.43);
 }
 
 /* HAMBURGER MENU */
@@ -408,10 +417,11 @@ section {
   right: 5rem;
   bottom: 2.5rem;
   opacity: 1; /* Establece la opacidad inicial */
-  transition: opacity 0.5s ease; /* Agrega una transición de opacidad */
+  transition: display 0.5s ease; /* Agrega una transición de opacidad */
 }
 
-.arrow_up.hidden {
+.hidden {
+  display: none;
   opacity: 0; /* Establece la opacidad a 0 cuando la clase hidden está presente */
 }
 
@@ -702,4 +712,11 @@ select{
   background-color: #417ff5;
   color: white;
   border-color: #417ff5;
+}
+.form-image{
+  height: 390px;
+  width: 360px;
+  border-radius: 20px;
+  margin-top: 32.5px;
+  animation: myAnim 2s ease 0s 1 normal forwards;
 }

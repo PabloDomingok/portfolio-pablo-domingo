@@ -159,4 +159,7 @@
   #about{
     padding-top: 0;
   }
+  .form-image{
+    display: none;
+  }
 }
