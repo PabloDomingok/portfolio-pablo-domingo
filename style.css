@@ -155,6 +155,12 @@ a:hover:before {
 .title{
   animation: fadeIn 2s ease 0s 1 normal forwards;
 }
+.section__text__p3{
+  color:#417ff5;
+}
+.marked{
+  color:#ab56f4;
+}
 .section__text__p1,
 .section__text__p2{
   animation: fadeInRight 2s ease 0s 1 normal forwards;
