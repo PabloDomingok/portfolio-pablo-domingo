@@ -519,6 +519,104 @@ article .icon {
   height: 90%;
 }
 
+.card {
+  width:225px;
+  height: 225px;
+  border-radius: 2rem;
+  background-image: url(./assets/project-3.png);
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenido */
+  background-position: center; /* Centra la imagen dentro del contenedor */
+  position: relative;
+  padding: 1.8rem;
+  border: 2px solid #417ff5;
+  transition: 0.5s ease-out;
+  overflow: visible;
+}
+
+.card2 {
+  width:225px;
+  height: 225px;
+  border-radius: 2rem;
+  background-image: url(./assets/project-1.png);
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenido */
+  background-position: center; /* Centra la imagen dentro del contenedor */
+  position: relative;
+  padding: 1.8rem;
+  border: 2px solid #417ff5;
+  transition: 0.5s ease-out;
+  overflow: visible;
+}
+
+.card1 {
+  width:225px;
+  height: 225px;
+  border-radius: 2rem;
+  background-image: url(./assets/project-2.png);
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenido */
+  background-position: center; /* Centra la imagen dentro del contenedor */
+  position: relative;
+  padding: 1.8rem;
+  border: 2px solid #417ff5;
+  transition: 0.5s ease-out;
+  overflow: visible;
+}
+
+ 
+ .card-button {
+  transform: translate(-50%, 60%);
+  width: 50%;
+  border-radius: 2rem;
+  border: none;
+  background-color: #ab56f4;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.8rem 1.2rem; 
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+ }
+ 
+
+ 
+ /*Text*/
+ .text-title {
+  font-size: 1.5em;
+  font-weight: bold;
+ }
+ 
+ /*Hover*/
+ .card:hover {
+  border-color: #ab56f4;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+ }
+ .card1:hover {
+  border-color: #ab56f4;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+ }
+
+ .card2:hover {
+  border-color: #ab56f4;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+ }
+ 
+ .card:hover .card-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+ }
+
+ .card1:hover .card-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+ }
+
+ .card2:hover .card-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+ }
+
 .project-title {
   margin: 1rem;
   color: #417ff5;
