@@ -11,6 +11,15 @@
     padding-top: 0%;
     height: fit-content;
   }
+  #about{
+    
+    margin-top: 200px;
+    margin-bottom: 400px;
+    
+  }
+  .title-container{
+    padding-bottom: 180px;  
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -22,7 +31,15 @@
 
 
 @media screen and (max-width: 1200px) {
-  
+  #about{
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+  }
+  .title-container{
+    padding-bottom: 0px;  
+  }
 
   #desktop-nav {
     display: none;
@@ -161,5 +178,14 @@
   }
   .form-image{
     display: none;
+  }
+  #about{
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+  }
+  .title-container{
+    padding-bottom: 0px;  
   }
 }
